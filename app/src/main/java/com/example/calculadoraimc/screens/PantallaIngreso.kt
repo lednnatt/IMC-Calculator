@@ -80,7 +80,7 @@ fun PantallaIngreso(navController: NavController) {
 
         Spacer(modifier = Modifier.height(8.dp))
 
-
+        // RETO 1: Mensaje de error visible solo si hay error
         if (mostrarError) {
             Text(
                 text = "Por favor, ingresa valores válidos",
