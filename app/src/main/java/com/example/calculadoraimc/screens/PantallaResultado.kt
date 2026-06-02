@@ -66,6 +66,7 @@ fun PantallaResultado(
 
         Spacer(modifier = Modifier.height(40.dp))
 
+        // Botón volver con popBackStack()
         OutlinedButton(
             onClick = { navController.popBackStack() },
             modifier = Modifier
