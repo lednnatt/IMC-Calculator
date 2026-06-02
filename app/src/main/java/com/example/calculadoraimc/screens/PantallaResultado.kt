@@ -56,6 +56,7 @@ fun PantallaResultado(
 
         Spacer(modifier = Modifier.height(12.dp))
 
+        // RETO 3: Categoría con color dinámico
         Text(
             text = categoria,
             fontSize = 22.sp,
